@@ -29,10 +29,10 @@ for (var i = 0; i< str.length; i++) {
     if (str[i].match(/[a-z]/i)) {
       // console.log("Letter")
         if (str[i-1] === "+" && str[i+1] === "+") {
-          true;
+          return true;
         }
         else {
-           false;
+           return   false;
         }
     }
     else {
